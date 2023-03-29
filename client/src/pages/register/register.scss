@@ -1,0 +1,89 @@
+.register{
+    width:100vw;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,1) 100%,
+    ),   
+    url("https://cst.brightspotcdn.com/dims4/default/836c7da/2147483647/strip/true/crop/3424x2283+0+298/resize/840x560!/quality/90/?url=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2F_mcXuZPHFwDiKLyiKGICkhVVGB0%3D%2F0x0%3A3424x4500%2F3424x4500%2Ffilters%3Afocal%281832x1439%3A1833x1440%29%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_asset%2Ffile%2F24412063%2FFilm_Titanic_3_D.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .top {
+        .wrapper {
+          padding: 20px 50px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+    
+          .logo {
+            height: 40px;
+          }
+    
+          .loginButton {
+            background-color: red;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 15px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+          }
+        }
+      }
+    
+      .container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    
+        h1 {
+          font-size: 50px;
+        }
+    
+        h2 {
+          margin: 20px;
+        }
+    
+        p {
+          font-size: 18px;
+        }
+    
+        .input {
+          width: 50%;
+          background-color: white;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 20px;
+          height: 50px;
+          border-radius: 5px;
+    
+          input{
+              flex: 9;
+              height: 100%;
+              border: none;
+              padding: 0 10px;
+          }
+    
+          .registerButton{
+              flex: 3;
+              height: 100%;
+              background-color: red;
+              border: none;
+              color: white;
+              font-size: 18px;
+              cursor: pointer;
+          }
+        }
+      }
+    }
